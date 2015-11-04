@@ -1,0 +1,6 @@
+python
+import sys
+sys.path.insert(0, '/media/linaro/46c10415-14aa-443e-b31d-a7c8e31a4713/home/linaro/work/linaro-gcc/install/share/gcc-4.6.3/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
